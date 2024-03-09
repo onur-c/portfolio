@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        ping: "ping 5s cubic-bezier(0, 0, 0.2, 1) infinite",
+      },
+      keyframes: {
+        ping: {
+          "75%": { transform: "scale(2)", opacity: "0" },
+          "100%": { transform: "scale(2)", opacity: "0" },
+        },
+      },
     },
   },
   plugins: [],
