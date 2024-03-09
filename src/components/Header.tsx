@@ -16,7 +16,7 @@ const Header = (props: Props) => {
         <div className="h-5 w-5 bg-amber-400 rounded-full"></div>
         <div className="h-5 w-5 bg-amber-400 rounded-full absolute animate-ping " />
         <p className="font-mono font-bold">ONUR.DEV</p>
-        <a href="https://github.com/onur-c">
+        <a href="https://github.com/onur-c" target="_blank">
           <BsGithub />
         </a>
       </div>
